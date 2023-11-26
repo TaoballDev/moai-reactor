@@ -1,39 +1,55 @@
-# Discord Bot 🗿
+# Your Bot Name
 
-## Description
-This is a simple Discord bot written in Python using the discord.py library. The bot reacts with 🗿 to every message sent in the server.
+Brief description of your bot.
 
-## Getting Started
-### Prerequisites
-- Python 3.x
-- [discord.py](https://discordpy.readthedocs.io/en/stable/)
+## Table of Contents
+- [Features](#features)
+- [Commands](#commands)
+- [Setup](#setup)
+- [Dependencies](#dependencies)
+- [License](#license)
 
-### Installation
-1. Clone the repository:
+## Features
+- Reacts with 🗿 to every message.
+- Automatic message deletion for filtered words.
+- Welcome message for new members.
+- Clear command to remove messages.
+- Ban and unban commands.
+- Customizable filtered word list.
+- Logging of deleted messages and errors.
+- User information display command.
+- Ping command to check bot latency.
 
-    ```bash
-    git clone https://github.com/Taoballl/moai-reactor.git
-    ```
+## Commands
+- `!ping`: Check the bot's latency.
+- `!userinfo [member]`: Display user information.
+- `!addword [word]`: Add a filtered word.
+- `!clear [amount]`: Clear a specified number of messages.
+- `!ban [member] [reason]`: Ban a member with an optional reason.
+- `!unban [member]`: Unban a member.
+- ... (Add more commands as needed)
 
-2. Install the required dependencies:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. Replace `'YOUR_BOT_TOKEN'` in `discord_bot.py` with your Discord bot token.
-
-4. Run the bot:
-
-    ```bash
-    python discord_bot.py
-    ```
-
-## Usage
-The bot reacts with 🗿 to every message sent in the server.
-
-## Contributing
-Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or create a pull request.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## Setup
+1. Clone the repository.
+   ```bash
+   git clone https://github.com/yourusername/your-bot.git
+   cd your-bot
+   ```
+2. Install dependencies.
+       ```bash
+       pip install -r requirements.txt
+        ```
+3. Create a config.py file and add your Discord bot token.
+       ```python
+       # config.py
+        TOKEN = 'your_bot_token_here'
+        ```
+   4. Run the bot.
+           ```python
+          python bot.py
+          ```
+   # Dependencies
+   * discord.py
+   * logging
+   # License
+   This project is licensed under the [MIT license](https://github.com/Taoballl/moai-reactor/blob/main/LICENSE) - see the [LICENSE.md](https://github.com/Taoballl/moai-reactor/blob/main/LICENSE) file for details.
