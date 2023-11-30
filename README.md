@@ -1,7 +1,5 @@
-# Your Bot Name
-
-Brief description of your bot.
-
+# Click to add text
+Click to add text
 ## Table of Contents
 - [Features](#features)
 - [Commands](#commands)
